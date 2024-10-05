@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+#home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#input {
+    padding-top: 40vh;
+}
+#heading {
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#paragraph {
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#add {
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#go {
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#go a {
+    color: #292828;
+    text-decoration: none;
+}
+#content {
+    position: relative;
+    padding: 10px 
+}
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+#footer {
+    background-color: #ccc;
+    border-top: 1px solid #484848;
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+#footer p {
+    text-align: center;
+    color: #484848;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 17.9px;
+}
+
+@media (max-width: 768px) {
+    /* Responsive design for smaller screens */
+    textarea {
+        width: 100%;
+    }
+}
